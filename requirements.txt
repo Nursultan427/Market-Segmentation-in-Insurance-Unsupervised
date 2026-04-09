@@ -1,0 +1,15 @@
+1)СКАЧИВАНИЕ БИБЛИОТЕК:
+pip install streamlit
+pip install pandas
+pip install joblib
+pip install matplotlib
+pip install scikit-learn
+
+2)ОБОЗНАЧЕНИЕ БИБЛИОТЕК:
+streamlit → st — библиотека для быстрого создания веб-приложений для визуализации и взаимодействия с данными.
+pandas → pd — библиотека для работы с таблицами и данными (DataFrame), удобна для анализа и обработки данных.
+joblib → — библиотека для сохранения и загрузки моделей машинного обучения (серриализация объектов).
+matplotlib.pyplot → plt — библиотека для построения графиков и визуализации данных.
+sklearn.cluster.KMeans → KMeans — алгоритм кластеризации данных (unsupervised learning).
+sklearn.preprocessing.StandardScaler → StandardScaler — масштабирование признаков, чтобы они имели среднее 0 и стандартное отклонение 1.
+sklearn.decomposition.PCA → PCA — метод понижения размерности данных (Principal Component Analysis).
