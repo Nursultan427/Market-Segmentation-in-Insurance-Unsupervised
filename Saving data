@@ -1,0 +1,5 @@
+if st.button("Сохранить модель"):
+    joblib.dump(model, "kmeans_model.pkl")
+    joblib.dump(scaler, "scaler.pkl")
+    st.success("Модель и scaler успешно сохранены!")
+
